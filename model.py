@@ -88,11 +88,26 @@ def decode_ids(ids, itos):
     # TODO: map each id through decode_int and join the characters into one string.
     pass
 
-# Step 8 - make_1d_array (not yet solved)
-# TODO: implement
+# Step 8 - make_1d_array
+import numpy as np
 
-# Step 9 - get_array_shape (not yet solved)
-# TODO: implement
+def make_1d_array(values):
+    """Create a 1D NumPy array from a Python list of numbers."""
+    val= np.array(values)
+    return val
+
+    # TODO: convert the input list into a 1D numpy ndarray
+    pass
+
+# Step 9 - get_array_shape
+import numpy as np
+
+
+def get_array_shape(arr):
+    """Return the shape tuple of a NumPy array."""
+    # TODO: return the shape of arr
+    return np.shape(arr)
+    pass
 
 # Step 10 - get_array_dtype (not yet solved)
 # TODO: implement
